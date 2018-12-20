@@ -26,7 +26,7 @@ class IeltsReadingSpider(scrapy.Spider):
 
     def parse(self, response):
         data = {'url': '',
-                'username': '17610551758', 'pwd': 'tt5200408'}
+                'username': '', 'pwd': ''}
         return [scrapy.FormRequest.from_response(response,
                                                  url='http://passport.zhan.com/UsersLogin/login.html',
                                                  meta={'cookiejar': response.meta['cookiejar']},

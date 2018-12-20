@@ -97,7 +97,7 @@ FILES_STORE ='output'
 DUPEFILTER_CLASS = 'xzspider.CustomFilter.CloseDupefilter'
 
 # MONGODB 主机名
-MONGODB_HOST = "106.12.29.124"
+MONGODB_HOST = ""
 # MONGODB 端口号
 MONGODB_PORT = 27017
 # 数据库名称

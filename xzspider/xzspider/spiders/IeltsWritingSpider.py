@@ -25,7 +25,7 @@ class WritingspiderSpider(scrapy.Spider):
 
     def parse(self, response):
         data = {'url': '',
-                'username': '', 'pwd': ''}
+                'username': '17610551758', 'pwd': 'tt5200408'}
         cookie_jar = CookieJar()
         return [scrapy.FormRequest.from_response(response,
                                                  url='http://passport.zhan.com/UsersLogin/login.html',
